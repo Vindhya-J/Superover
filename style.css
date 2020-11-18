@@ -1,0 +1,71 @@
+*{   
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+    align-self: center;
+    border-radius: 25px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>.row{
+    width:100%;
+    justify-content: space-evenly;
+}
+
+.pic{
+    border-radius: 50%;
+    border:2px solid rgb(255, 255, 255);
+}
+
+.teamname{
+    font-size:x-large;
+    font-weight: bolder;
+}
+
+.score{
+    font-size: xx-large;
+
+}
+
+.runs{
+    font-size: x-small;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+#strikebutton{
+    background-color: blueviolet;
+    width: 300px;
+    height: 30px;
+    font-size: large;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    border-radius: 20px;
+    outline: none;
+}
