@@ -13,6 +13,7 @@ body{
 .container{
     background-color: white;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     width: 700px;
     height: 500px;
@@ -39,7 +40,7 @@ body{
 
 .pic{
     border-radius: 50%;
-    border:2px solid rgb(255, 255, 255);
+    border:2px solid rgb(145, 43, 43);
 }
 
 .teamname{
@@ -53,7 +54,7 @@ body{
 }
 
 .runs{
-    font-size: x-small;
+    font-size: large;
     width: 200px;
     justify-content: space-evenly;
 }
