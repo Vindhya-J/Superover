@@ -50,7 +50,6 @@ body{
 
 .score{
     font-size: xx-large;
-
 }
 
 .runs{
@@ -69,4 +68,13 @@ body{
     margin-bottom: -50px;
     border-radius: 20px;
     outline: none;
+}
+
+#result{
+    font-size: x-large;
+    color: rosybrown;
+    background-color: royalblue;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 25px;
 }
