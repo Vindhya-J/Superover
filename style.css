@@ -4,14 +4,14 @@
 }
 
 body{
-    background-color: blueviolet;
+    background: linear-gradient(to right,white,blueviolet);
     display: flex;
     justify-content: center;
     height: 100vh;
 }
 
 .container{
-    background-color: white;
+    background: linear-gradient(to left,white,blueviolet);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -72,8 +72,8 @@ body{
 
 #result{
     font-size: x-large;
-    color: rosybrown;
-    background-color: royalblue;
+    color: white;
+    background:linear-gradient(to right,red,black) ;
     text-align: center;
     margin-top: 50px;
     border-radius: 25px;
