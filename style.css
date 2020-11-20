@@ -4,14 +4,14 @@
 }
 
 body{
-    background: linear-gradient(to right,white,blueviolet);
+    background: linear-gradient(to right,white,teal);
     display: flex;
     justify-content: center;
     height: 100vh;
 }
 
 .container{
-    background: linear-gradient(to left,white,blueviolet);
+    background: linear-gradient(to top,black,royalblue);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -46,20 +46,23 @@ body{
 .teamname{
     font-size:x-large;
     font-weight: bolder;
+    color: whitesmoke;
 }
 
 .score{
     font-size: xx-large;
+    color: thistle;
 }
 
 .runs{
     font-size: large;
+    color:linen;
     width: 200px;
     justify-content: space-evenly;
 }
 
 #strikebutton{
-    background-color: blueviolet;
+    background:linear-gradient(to bottom,rgb(34, 16, 102),rgb(32, 250, 239));
     width: 300px;
     height: 30px;
     font-size: large;
@@ -73,7 +76,7 @@ body{
 #result{
     font-size: x-large;
     color: white;
-    background:linear-gradient(to right,red,black) ;
+    background:linear-gradient(to right,maroon,black) ;
     text-align: center;
     margin-top: 50px;
     border-radius: 25px;
